@@ -6,7 +6,7 @@
 }
 
 body{
-    background: #191919;
+    background: white;
 }
 
 .gallery{
@@ -32,3 +32,15 @@ body{
     display: none;
 }
 
+.gallery-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10% auto;
+}
+
+#backBtn, #nextBtn{
+    width: 50px;
+    cursor: pointer;
+    margin: 40px;
+}
